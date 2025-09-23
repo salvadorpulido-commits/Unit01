@@ -25,7 +25,7 @@ public class Exercise07 {
 		
 		System.out.println("Introduzca su telefono");
 		telefono = reader.nextLine();
-		
+				
 		
 		
 	}
