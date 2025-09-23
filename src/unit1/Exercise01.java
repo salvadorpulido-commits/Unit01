@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Exercise01 {
 
-	private static String numero;
-	private static Scanner scanner;
-
 	public static void main(String[] args) {
 		//create a new Scanner
 		Scanner sc = new Scanner(System.in);
