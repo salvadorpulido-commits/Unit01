@@ -25,6 +25,7 @@ public class Exercise10 {
 		
 		// Imprimimos si el nuemro es par o impar
 		System.out.println("El numero es par" + esPar);
+		
 	    // Cerramos el scanner
 		reader.close();
 		
