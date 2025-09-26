@@ -13,7 +13,7 @@ public class Exercise15 {
 		// Creamos Scanner
 		Scanner reader = new Scanner(System.in);
 		
-		//Constante almacenar el valoer del IVA
+		//Constante almacenar el valor del IVA
 		final int IVA = 21;
 		
 		//precio para leer la consola
