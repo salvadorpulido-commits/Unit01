@@ -12,8 +12,7 @@ public class Exercise03 {
         
         
         int actual = scanner.nextInt();
-        
-        
+                
         System.out.print("Introduce tu año de nacimiento: ");
         int nacimiento = scanner.nextInt();
         
