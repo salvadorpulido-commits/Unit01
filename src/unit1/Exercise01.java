@@ -16,7 +16,7 @@ public class Exercise01 {
 	     number = sc.nextInt();
 	     
 	    // Show the number
-	        System.out.println("El número que introdujiste es: " + number);
+	        System.out.print("El número que introdujiste es: " + number);
 	    
 	    //Close Scanner
 	        sc.close();
