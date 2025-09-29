@@ -21,5 +21,8 @@ public class Exercise02 {
 
         // Cerrar el escáner
         scanner.close();
+        
     }
+	
 }
+
