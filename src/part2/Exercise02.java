@@ -10,9 +10,9 @@ public class Exercise02 {
 		int numASumar;
 		int resto;
 
-		Scanner reader = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduzca un número:");
-		numero = reader.nextInt();
+		numero = sc.nextInt();
 
 		resto = numero % 7;
 		
@@ -20,7 +20,7 @@ public class Exercise02 {
 		
 		System.out.println("La cantidad a sumar es: " + numASumar);
 
-		reader.close();
+		sc.close();
 
 	}
 
