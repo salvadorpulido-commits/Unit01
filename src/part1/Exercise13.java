@@ -1,4 +1,4 @@
-package unit1;
+package part1;
 
 import java.util.Scanner;
 
@@ -31,7 +31,7 @@ public class Exercise13 {
         
         //Si no esta lloviendo y hemos finalizado nuestras tareas. Indistintamente 
         //de lo anterior, podemos salir a la calle. El hecho de tener que ir a la biblioteca
-        salir = (!estaLloviendo && tareasTerminadas) || 
+        salir = (!estaLloviendo && tareasTerminadas) ||
         		
         	
 

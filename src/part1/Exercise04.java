@@ -1,4 +1,4 @@
-package unit1;
+package part1;
 
 public class Exercise04 {
 	
