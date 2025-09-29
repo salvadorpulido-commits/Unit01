@@ -33,5 +33,8 @@ public class Exercise05 {
 		System.out.println("la longitud de la circunferencia es " + longitud);
 		System.out.println("el area de la circunferencia es " + area);
 		
+		//Cerramos scanner
+		reader.close();
+				
 	}
 }
