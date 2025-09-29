@@ -10,13 +10,18 @@ public class Exercise07 {
 		 * *pedir nombre
 		 * *pedir direccion
 		 * *pedir telefono
+		 * *imprimir en lineas diferentes
 		 */
 
+		//Creamos nuevo scanner
 		Scanner reader = new Scanner(System.in);
+		
+		//Declaramos las variables
 		String nombre;
 		String direccion;
 		String telefono;
 		
+		//Pedimos datos
 		System.out.println("Introduzca su nombre");
 		nombre = reader.nextLine();
 		
@@ -25,8 +30,14 @@ public class Exercise07 {
 		
 		System.out.println("Introduzca su telefono");
 		telefono = reader.nextLine();
-				
 		
+		//Imprimimos por lineas diferentes
+		System.out.println("Nombre introducido: " + nombre);
+		System.out.println("Nombre introducido: " + direccion);
+		System.out.println("Nombre introducido: " + telefono);
+		
+		//Cerramos scanner
+		reader.close();
 		
 	}
 }
