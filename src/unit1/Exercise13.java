@@ -12,13 +12,13 @@ public class Exercise13 {
 		 * mostrar mesaje que infdique si puede salir
 		 */
 		
-		Scanner reader = new Scanner/System.in)
+		Scanner reader = new Scanner(System.in);
 
         //Variable de 
 
-        boolean estaLloviendo
-        boolean tareasTerminadas
-        boolean irBiblioteca
+        boolean estaLloviendo;
+        boolean tareasTerminadas;
+        boolean irBiblioteca;
         
         System.out.println("¿Esta lloviendo?");
         estaLloviendo = reader.nextBoolean();
