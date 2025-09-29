@@ -1,4 +1,5 @@
 package part1;
+
 import java.util.Scanner;
 
 public class Exercise03 {
@@ -11,17 +12,22 @@ public class Exercise03 {
         // Pedir el año actual al usuario
         System.out.print("Introduce el año actual: ");
         
-        
+        // Declaramos la variable año
         int actual = scanner.nextInt();
-                
+        
+        // Pedimos al usuario su año de nacimiento
         System.out.print("Introduce tu año de nacimiento: ");
+        
+        // La consola espera un valor
         int nacimiento = scanner.nextInt();
         
+        // La consola calcula las variables
         int edad = actual - nacimiento;
         
+        // Imprime el resultado
         System.out.println("Tienes " + edad + " años.");
         
-        
+        // Cerramos el Scanner
         scanner.close();
     }
 }
