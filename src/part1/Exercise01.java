@@ -13,16 +13,15 @@ public class Exercise01 {
 		int number;
 		
 		//Ask the user a number
-		 System.out.print("Introduce un número: ");
-	     number = sc.nextInt();
+		System.out.print("Introduce un número: ");
+	    number = sc.nextInt();
 	     
-	    // Show the number
-	        System.out.println("El número que introdujiste es: " + number);
+	    //Show the number
+	    System.out.println("El número que introdujiste es: " + number);
 	    
 	    //Close Scanner
-	        sc.close();
-	        
-	}
-	        
-
+	    sc.close();
+	    
+	  }
+	
 }
