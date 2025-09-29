@@ -1,14 +1,27 @@
 package part2;
 
-public class Exercise02 {
-	
+import java.util.Scanner;
 
-		public static void main(String[] args) {
-			// TODO Auto-generated method stub
-			
-			
-			
-			
-		}		
+public class Exercise02 {
+
+	public static void main(String[] args) {
+		
+		int numero;
+		int numASumar;
+		int resto;
+
+		Scanner reader = new Scanner(System.in);
+		System.out.println("Introduzca un número:");
+		numero = reader.nextInt();
+
+		resto = numero % 7;
+		
+		numASumar = (resto == 0) ? 0 : (7-resto) ;
+		
+		System.out.println("La cantidad a sumar es: " + numASumar);
+
+		reader.close();
+
+	}
 
 }
