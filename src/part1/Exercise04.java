@@ -24,7 +24,8 @@ public class Exercise04 {
         System.out.println("La media es: " + media);
         
         // Cerramos Scanner
-        scanner.close();
+        sc.close();
+        
     }
     
 }
