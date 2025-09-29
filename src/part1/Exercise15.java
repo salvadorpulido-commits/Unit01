@@ -23,12 +23,12 @@ public class Exercise15 {
 		double precioConIVA;
 		
 		System.out.println("Introduce el precio:");
-		precio.reader.NextDouble();
+		precio = reader.nextDouble();
 		
-		PrecioConIVA = precio+precio*IVA/100
-		System.out.println("El precio con IVA es: " + precioCon IVA);
+		precioConIVA = precio+precio*IVA/100;
+		System.out.println("El precio con IVA es: " + precioConIVA);
 		
-	    Scanner.close	
+	    reader.close();
 		
 	}
 
