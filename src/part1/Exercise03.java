@@ -7,19 +7,19 @@ public class Exercise03 {
     public static void main(String[] args) {
     	
     	// Crear un escáner para leer datos del usuario
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         // Pedir el año actual al usuario
         System.out.print("Introduce el año actual: ");
         
         // Declaramos la variable año
-        int actual = scanner.nextInt();
+        int actual = sc.nextInt();
         
         // Pedimos al usuario su año de nacimiento
         System.out.print("Introduce tu año de nacimiento: ");
         
         // La consola espera un valor
-        int nacimiento = scanner.nextInt();
+        int nacimiento = sc.nextInt();
         
         // La consola calcula las variables
         int edad = actual - nacimiento;
@@ -28,6 +28,6 @@ public class Exercise03 {
         System.out.println("Tienes " + edad + " años.");
         
         // Cerramos el Scanner
-        scanner.close();
+        sc.close();
     }
 }
