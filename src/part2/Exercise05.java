@@ -13,15 +13,16 @@ public class Exercise05 {
 		// Creamos scanner
 		Scanner sc = new Scanner(System.in);
 		
+		// Cálculos
+        int horas = segundosTotales / 3600;          // 1 hora = 3600 segundos
+        int minutos = (segundosTotales % 3600) / 60; // El resto de dividir entre 3600 lo pasamos a minutos
+        int segundos = segundosTotales % 60;         // Lo que sobra son los segundos
+				
 		// Pedir la cantidad de segundos
         System.out.print("Introduce una cantidad de segundos: ");
         int segundosTotales = sc.nextInt();
 
-        // Cálculos
-        int horas = segundosTotales / 3600;          // 1 hora = 3600 segundos
-        int minutos = (segundosTotales % 3600) / 60; // El resto de dividir entre 3600 lo pasamos a minutos
-        int segundos = segundosTotales % 60;         // Lo que sobra son los segundos
-
+        
         // Mostrar el resultado
         System.out.println(segundosTotales + " segundos equivalen a: ");
         System.out.println(horas + " horas, " + minutos + " minutos y " + segundos + " segundos.");
