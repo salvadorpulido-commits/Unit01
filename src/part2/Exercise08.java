@@ -16,6 +16,11 @@ public class Exercise08 {
 
         // Creamos scanner
         Scanner sc = new Scanner(System.in);
+        
+        //Declaramos variables
+        double metros
+        double centimetros
+        int centimetrosEnteros
 
         // Pedir la longitud en metros
         System.out.print("Introduce la longitud del lanzamiento en metros: ");
