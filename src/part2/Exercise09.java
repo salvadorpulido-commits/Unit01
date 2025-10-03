@@ -2,7 +2,7 @@ package part2;
 
 import java.util.Scanner;
 
-public class Exercise08 {
+public class Exercise09 {
 
     public static void main(String[] args) {
         /* Cada problema tiene un identificador único, empezando en 100.
