@@ -19,6 +19,10 @@ public class Exercise07 {
 
         // Creamos scanner
         Scanner sc = new Scanner(System.in);
+        
+        //Variables
+        int entradasInfantiles
+        int entradasAdultos
 
         // Pedir número de entradas infantiles
         System.out.print("Introduce el número de entradas infantiles: ");
@@ -35,7 +39,7 @@ public class Exercise07 {
         // Cálculo del importe total
         double total = (entradasInfantiles * precioInfantil) + (entradasAdultos * precioAdulto);
 
-        // Aplicar descuento si procede (versión sin llaves)
+        // Aplicar descuento si procede 
         if (total >= 100) 
             total = total - (total * 0.05); // 5% de descuento
 
