@@ -24,7 +24,7 @@ public class Exercise10 {
 		numero = reader.nextInt();
 		
 		// Comprobamos si el numero es par
-		esPar = (numero%2 == 0) ? "Si" : "No";
+		cadenaEsPar = (numero%2 == 0) ? "Si" : "No";
 		
 		// Imprimimos si el numero es par o impar
 		System.out.println("¿El numero es par?" + cadenaEsPar);
