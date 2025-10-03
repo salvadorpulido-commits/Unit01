@@ -16,6 +16,10 @@ public class Exercise09 {
 
         // Creamos scanner
         Scanner sc = new Scanner(System.in);
+        
+        //Declaramos variables
+        int idProblema
+        int volumen
 
         // Pedir el identificador del problema
         System.out.print("Introduce el identificador del problema: ");
