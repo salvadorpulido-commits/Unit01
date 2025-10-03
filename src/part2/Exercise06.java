@@ -14,6 +14,10 @@ public class Exercise06 {
 	public static void main(String[] args) {
 		
         Scanner sc = new Scanner(System.in);
+        
+        // Variables
+        double mmEnCm = mm * 0.1;   // milímetros a centímetros
+        double mEnCm = m * 100;     // metros a centímetros
 
         // Solicitar distancias
         System.out.print("Introduce la primera distancia (en milímetros): ");
@@ -25,9 +29,6 @@ public class Exercise06 {
         System.out.print("Introduce la tercera distancia (en metros): ");
         double m = sc.nextDouble();
 
-        // Conversiones a centímetros
-        double mmEnCm = mm * 0.1;   // milímetros a centímetros
-        double mEnCm = m * 100;     // metros a centímetros
 
         // Suma total en centímetros
         double sumaCm = mmEnCm + cm + mEnCm;
