@@ -13,8 +13,17 @@ public class Exercise04 {
         */
 		
         // Creamos scanner
+		
 		Scanner sc = new Scanner(System.in);
 		
+		//Creamos variables
+		
+		double a;
+		double b;
+		double c;
+		double x;
+		double y;
+						
 		//Pedimos los coeficientes:
 		
 		System.out.print("Introduce el valor de a: ");
