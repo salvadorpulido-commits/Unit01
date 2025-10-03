@@ -34,8 +34,9 @@ public class Exercise13 {
      	irBiblioteca = reader.nextBoolean();
 
      	/* si no está lloviendo y hemos finalizado nuestras tareas. indistintamente de
-     	/ lo anterior, podremos salir a la calle: el hecho de tener que ir a la
-     	*/ biblioteca.
+     	 * lo anterior, podremos salir a la calle: el hecho de tener que ir a la 
+     	 * biblioteca.
+     	*/
      	
      	
      	salir = (!estaLloviendo && tareasTerminadas) || irBiblioteca;
