@@ -14,6 +14,10 @@ public class Exercise10 {
 
         // Creamos scanner
         Scanner sc = new Scanner(System.in);
+        
+        //Declaramos variables
+        int año
+        int siglo
 
         // Pedir el año
         System.out.print("Introduce un año: ");
