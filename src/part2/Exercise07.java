@@ -2,7 +2,7 @@ package part2;
 
 import java.util.Scanner;
 
-public class Exercise06 {
+public class Exercise07 {
 
     public static void main(String[] args) {
         /* Una empresa que gestiona un parque acuático solicita una aplicación
