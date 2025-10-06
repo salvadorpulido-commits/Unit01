@@ -1,21 +1,39 @@
 package englishExercisesPart02;
 
-import java.util.Scanner;   // Importamos la clase Scanner para leer datos del usuario
+import java.util.Scanner;  
 
 public class Exercise03 {
 
     public static void main(String[] args) {
+    	
+    	/*
+    	 * Design a program that asks the user to enter values for the length and height of a 
+    	 * rectangle and then displays the area and perimeter of that rectangle.
+    	 */
+
         
-        // Creamos un objeto Scanner llamado 'sc' para leer datos desde el teclado
+        // Creamos Scanner 
         Scanner sc = new Scanner(System.in);
+        
+        //Variable longitud
+        double length
+        
+        //Variable altura
+        double height
+        
+        //Variable area
+        double area
+                
+        //Variable perimetro
+        double perimeter
         
         // Pedimos al usuario que introduzca la longitud del rectángulo
         System.out.print("Enter the length of the rectangle: ");
-        double length = sc.nextDouble();   // Leemos la longitud (puede tener decimales)
+        double length = sc.nextDouble();   
         
         // Pedimos al usuario que introduzca la altura del rectángulo
         System.out.print("Enter the height of the rectangle: ");
-        double height = sc.nextDouble();   // Leemos la altura (puede tener decimales)
+        double height = sc.nextDouble();   
         
         // Calculamos el área del rectángulo usando la fórmula: área = longitud × altura
         double area = length * height;
@@ -27,7 +45,7 @@ public class Exercise03 {
         System.out.println("Area of the rectangle: " + area);
         System.out.println("Perimeter of the rectangle: " + perimeter);
         
-        // Cerramos el Scanner para liberar recursos del sistema
+        // Cerramos Scanner 
         sc.close();
     }
 }
