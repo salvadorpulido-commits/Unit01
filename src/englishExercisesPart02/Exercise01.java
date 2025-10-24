@@ -21,7 +21,7 @@ public class Exercise01 {
 
         //Creammos Scanner
 		
-		Scanner sc = new Scanner(system.in);
+		Scanner reader = new Scanner(System.in);
 		
 		// Variable precio
 		
