@@ -38,12 +38,12 @@ public class Exercise01 {
 		//Solicitamos importe
 		
 		System.out.println("Introduce the price");
-		price = sc.nextDouble();
+		price = reader.nextDouble();
 		
 		//Solicitamos impuesto
 		
 		System.out.println("Introduce tax");
-		tax = sc.nextInt;
+		tax = reader.nextInt();
 		
 		//Calcula el resultado
 		
@@ -55,7 +55,7 @@ public class Exercise01 {
 		
 		//Cerramos Scanner
 		
-		sc.close();
+		reader.close();
 		
 	}
 
