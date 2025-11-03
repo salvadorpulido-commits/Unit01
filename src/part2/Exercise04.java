@@ -27,20 +27,20 @@ public class Exercise04 {
 		//Pedimos los coeficientes:
 		
 		System.out.print("Introduce el valor de a: ");
-		double a = sc.nextDouble();
+		a = sc.nextDouble();
 		
 		System.out.print("Introduce el valor de b: ");
-        double b = sc.nextDouble();
+        b = sc.nextDouble();
         
         System.out.print("Introduce el valor de c: ");
-        double c = sc.nextDouble();
+        c = sc.nextDouble();
 
         // Pedimos el valor de x
         System.out.print("Introduce el valor de x: ");
-        double x = sc.nextDouble();
+        x = sc.nextDouble();
         
         // Calculamos y = ax^2 + bx + c
-        double y = a * Math.pow(x, 2) + b * x + c;
+        y = a * Math.pow(x, 2) + b * x + c;
 
         // Mostramos el resultado
         System.out.println("El valor de y para x = " + x + " es: " + y);
