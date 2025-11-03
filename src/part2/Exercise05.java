@@ -14,7 +14,7 @@ public class Exercise05 {
 		Scanner sc = new Scanner(System.in);
 		
 		// Cálculos
-        int horas;          // 1 hora = 3600 segundos
+        int horas;    // 1 hora = 3600 segundos
         int minutos; // El resto de dividir entre 3600 lo pasamos a minutos
         int segundos; // Lo que sobra son los segundos
 				
