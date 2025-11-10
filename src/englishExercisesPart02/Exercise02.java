@@ -16,11 +16,11 @@ public class Exercise02 {
         
         //Creamos variable edad
         
-        int age
+        int age;
         
         //Creamos variable año en curso
         
-        int currentYear
+        int currentYear;
         
         // Pedimos al usuario que introduzca su edad
         System.out.print("Please enter your age: ");
