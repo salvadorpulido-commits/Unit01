@@ -16,30 +16,30 @@ public class Exercise03 {
         Scanner sc = new Scanner(System.in);
         
         //Variable longitud
-        double length
+        double length;
         
         //Variable altura
-        double height
+        double height;
         
         //Variable area
-        double area
+        double area;
                 
         //Variable perimetro
-        double perimeter
+        double perimeter;
         
         // Pedimos al usuario que introduzca la longitud del rectángulo
         System.out.print("Enter the length of the rectangle: ");
-        double length = sc.nextDouble();   
+        length = sc.nextDouble();   
         
         // Pedimos al usuario que introduzca la altura del rectángulo
         System.out.print("Enter the height of the rectangle: ");
-        double height = sc.nextDouble();   
+       height = sc.nextDouble();   
         
         // Calculamos el área del rectángulo usando la fórmula: área = longitud × altura
-        double area = length * height;
+        area = length * height;
         
         // Calculamos el perímetro del rectángulo: perímetro = 2 × (longitud + altura)
-        double perimeter = 2 * (length + height);
+        perimeter = 2 * (length + height);
         
         // Mostramos los resultados al usuario
         System.out.println("Area of the rectangle: " + area);

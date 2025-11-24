@@ -1,5 +1,7 @@
 package englishExercisesPart02;
 
+import java.time.Year;
+
 import java.util.Scanner;   
 
 public class Exercise02 {
@@ -22,15 +24,19 @@ public class Exercise02 {
         
         int currentYear;
         
+        //Variable fecha de nacimiento
+        
+        int birthYear;
+        
         // Pedimos al usuario que introduzca su edad
         System.out.print("Please enter your age: ");
-        int age = sc.nextInt();   
+        age = sc.nextInt();   
         
         // Obtenemos el año actual usando la clase Year del paquete java.time
-        int currentYear = Year.now().getValue();
+        currentYear = Year.now().getValue();
         
         // Calculamos el año de nacimiento restando la edad al año actual
-        int birthYear = currentYear - age;
+        birthYear = currentYear - age;
         
         // Mostramos el resultado en pantalla
         System.out.println("You were born in approximately: " + birthYear);
