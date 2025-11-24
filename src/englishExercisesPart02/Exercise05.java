@@ -16,26 +16,26 @@ public class Exercise05 {
         Scanner sc = new Scanner(System.in);
         
         //Declaramos variable Peso
-        double weight
+        double weight;
         
         //Declaramos variable Altura
         
-        double height
+        double height;
         
         //Declaramos variable Indice masa corporal
         
-        double bmi
+        double bmi;
         
         // Pedimos al usuario que introduzca su peso en kilogramos
         System.out.print("Enter your weight in kilograms: ");
-        double weight = sc.nextDouble();  
+        weight = sc.nextDouble();  
         
         // Pedimos al usuario que introduzca su altura en metros
         System.out.print("Enter your height in meters: ");
-        double height = sc.nextDouble(); 
+        height = sc.nextDouble(); 
         
         // Calculamos el BMI usando la fórmula: peso / (altura al cuadrado)
-        double bmi = weight / (height * height);
+        bmi = weight / (height * height);
         
         // Mostramos el resultado al usuario
         System.out.println("Your Body Mass Index (BMI) is: " + bmi);

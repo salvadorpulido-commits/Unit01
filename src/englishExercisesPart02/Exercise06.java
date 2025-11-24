@@ -21,37 +21,37 @@ public class Exercise06 {
         
         //Variable total de estudiantes
         
-        int totalStudents
+        int totalStudents;
         
         //Variable tamaño de cada equipo
         
-        int teamSize
+        int teamSize;
         
         //Variable equipos completos
         
-        int fullTeams
+        int fullTeams;
         
         //Variable estudiantes sin equipo
         
-        int studentsLeft
+        int studentsLeft;
                        
         // Pedimos al usuario que introduzca el número total de estudiantes
         
         System.out.print("Enter the total number of students: ");
-        int totalStudents = sc.nextInt();
+        totalStudents = sc.nextInt();
         
         // Pedimos al usuario que introduzca el tamaño de cada equipo
         
         System.out.print("Enter the desired team size: ");
-        int teamSize = sc.nextInt(); 
+        teamSize = sc.nextInt(); 
         
         // Calculamos cuántos equipos completos se pueden formar
         
-        int fullTeams = totalStudents / teamSize;
+        fullTeams = totalStudents / teamSize;
         
         // Calculamos cuántos estudiantes quedan sin equipo (resto de la división)
         
-        int studentsLeft = totalStudents % teamSize;
+        studentsLeft = totalStudents % teamSize;
         
         // Mostramos los resultados al usuario
         

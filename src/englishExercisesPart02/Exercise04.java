@@ -23,18 +23,18 @@ public class Exercise04 {
         
         //Declaramos variable Libras
         
-        double pounds
+        double pounds;
         
         //Declaramos variable Kilogramos
         
-        double kilos
+        double kilos;
         
         // Pedimos al usuario que introduzca el valor en libras
         System.out.print("Enter the value in pounds: ");
-        double pounds = sc.nextDouble(); 
+        pounds = sc.nextDouble(); 
         
         // Convertimos libras a kilos dividiendo entre 2.2 (ya que 1 kilo = 2.2 libras)
-        double kilos = pounds / 2.2;
+        kilos = pounds / 2.2;
         
         // Mostramos el resultado en pantalla
         System.out.println(pounds + " pounds are equivalent to " + kilos + " kilos.");
